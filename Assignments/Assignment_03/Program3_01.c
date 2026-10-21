@@ -1,3 +1,10 @@
+/* 
+Write a program which accept one number from user and print that number of even numbers on screen.
+
+Input : 7
+Output: 2 4 6 8 10 12 14
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,7 +27,7 @@ void PrintEven(int iNo)
 
     //     iValue++;
     // }
-    
+
     for( int iValue = 1 ; iCnt <= iNo ; iValue++)
     {
         if (iValue % 2 == 0)
