@@ -3,12 +3,11 @@
 
 void Display(int iNo, int iFrequency)
 {
-    iFrequency  = 0;
-    iNo = 0;
-     
-    for(iFrequency = 1 ; iFrequency >=0 ; iFrequency++)
+     int iCnt =0;
+
+    for(iCnt = 1 ; iCnt <= iFrequency ; iCnt++)
     {
-        printf("%d", iNo * iFrequency);
+        printf("%d \t ", iNo );
     }
 }
 
