@@ -1,13 +1,29 @@
+/*
+
+Check Whether a Number Is Positive or Negative
+Problem Statement: Write a C program that accepts an integer from the user and determines whether the 
+entered number is positive, negative, or zero.
+
+Expected Output:
+* Input: 15 → Positive Number
+* Input: -8 → Negative Number
+* Input: 0 → Zero
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 void CheckNumber(int iValue)
 {
-    if ( iValue >= 0 )
+    if ( iValue > 0 )
     {
         printf("The No. is Positive");
     }
-
+    else if (iValue == 0)
+    {
+        printf("The No. is Zero");
+    }
     else
     {
         printf("The No. is Negative");
