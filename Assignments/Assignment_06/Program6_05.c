@@ -31,7 +31,7 @@ void CalculateBonus(float fSalary , int iYears)
         fBonus = fSalary *  10 / 100;
         printf("Bonus is : %.2f",fBonus); 
     }
-    else 
+    else if(iYears <= 5 )
     {
         fBonus = fSalary *  5 / 100;
         printf("Bonus is : %.2f",fBonus); 

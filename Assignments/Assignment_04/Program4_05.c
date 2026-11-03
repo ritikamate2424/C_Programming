@@ -16,11 +16,11 @@ void CheckDivisibility(int  iValue)
 {
     if( iValue % 5 == 0)
     {
-        printf("Number is Divisible by 5 ");
+        printf("Numbetr is Divisible by 5 ");
     }
     else
     {
-        printf("Number is Not Divisible by 5 ");
+        printf("Numbetr is not Divisible by 5 ");
     }
 }
 
